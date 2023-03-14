@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My LinkedIn Profile</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Font Awesome icons -->
+  <script src="https://kit.fontawesome.com/7a80cdd90d.js" crossorigin="anonymous"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Profile</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+<p>
+  <div class="container">
+    <!-- About section -->
+    <section id="about">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://via.placeholder.com/150" alt="Profile Picture" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+          <h1>John Doe</h1>
+          <h2>Job Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit magna ut augue facilisis, a egestas elit viverra. Suspendisse sed velit eget velit efficitur iaculis vel vel mauris.</p>
+        </div>
+      </div>
+    </section>
+</p>
+
+    <!-- Experience section -->
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <h4>Job Title</h4>
+        <p>Company Name | June 2020 - Present</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Sed non est vel lorem ultricies mattis.</li>
+          <li>Etiam feugiat libero id ipsum bibendum, in congue orci commodo.</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <h4>Job Title</h4>
+        <p>Company Name | January 2018 - June 2020</p>
+        <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Sed non est vel lorem ultricies mattis.</li>
+      <li>Etiam feugiat libero id ipsum bibendum, in congue orci commodo.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Education section -->
+<section id="education">
+  <h2>Education</h2>
+  <div class="education-item">
+    <h4>Degree</h4>
+    <p>School Name | Graduated June 2018</p>
+    <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Sed non est vel lorem ultricies mattis.</li>
+      <li>Etiam feugiat libero id ipsum bibendum, in congue orci commodo.</li>
+    </ul>
+  </div>
+  <div class="education-item">
+    <h4>Degree</h4>
+    <p>School Name | Graduated June 2016</p>
+    <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Sed non est vel lorem ultricies mattis.</li>
+      <li>Etiam feugiat libero id ipsum bibendum, in congue orci commodo.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Skills section -->
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML/CSS</li>
+    <li>JavaScript</li>
+    <li>Bootstrap</li>
+    <li>React</li>
+    <li>Node.js</li>
+  </ul>
+</section>
+
+<!-- Contact section -->
+<section id="contact">
+  <h2>Contact</h2>
+  <form>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea class="form-control" id="message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</section>
+ </div>
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
